@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <h1>ANDHRA PRADESH STATE ROAD TRANSPORT COORPORATION</h1>
+    <h3>Bus Pass Application</h3>
+    <hr>
+    <form action="./index1.html" autocomplete="off"> <fieldset>
+            <legend>Applicatin Details</legend>
+            <label for="">Name:</label>
+            <input type="text" name="name" min="4" max="30" autocomplete="off" >
+            <label for="">Father's/Guardian's name:</label>
+            <input type="text" name="F/Gname" id=""> <br>
+            <label for="">Date of Birth:</label>
+            <input type="date" name="DOB" id="">
+            <label for="">Gender:</label>
+            <input type="radio" name="gender1" id="" value="male">
+            <label for="">male</label>
+            <input type="radio" name="gender1" id="" value="female">
+            <label for="">female</label><br>
+
+            <label for="">Age as now:</label>
+            <input type="text" name="age" id="">
+            <label for="">Aadhar no:</label>
+            <input type="tel" name="aadharno" id=""><br>
+            <label for="">whatsapp no:</label>
+            <input type="tel" name="wno" id="">
+            <label for="">Email:</label>
+            <input type="email" name="email" id=""><br>
+            <label for="">Photo:</label>
+            <input type="file" name="photo" id="">
+        </fieldset>
+
+        <fieldset>
+            <legend>Address Details</legend>
+            <label for="">Applicant's Address:</label>
+            <textarea name="address" id="" ></textarea>
+            <label for=""> District:</label>
+            <select name="district" id="">
+                <option value="" disabled selected>--select--</option>
+                <option value="Kakinada">Kakinada</option>
+                <option value="East Godavari">East Godavari</option>
+                <option value="West Godavari">West Godavari</option>
+                <option value="Vishkapatanam">Vishkapatanam</option>
+            </select><br>
+             <label for=""> Madalam:</label>
+            <select name="madalam" id="">
+                <option value="" disabled selected>--select--</option>
+                <option value="Kakinada">kakinada</option>
+                <option value="pithapuram">pithapuram</option>
+                <option value="uppada">uppada</option>
+                <option value="gollaprolu">gollaprolu</option>
+            </select>
+             <label for=""> Village:</label>
+            <select name="village" id="">
+                <option value="" disabled selected>--select--</option>
+                <option value="Kakinada">Kakinada</option>
+                <option value="pithapuram">pithapuram</option>
+                <option value="chebrolu">chebrolu</option>
+                <option value="gollaprolu">gollaprolu</option>
+            </select><br>
+
+            <label for="">Pin code:</label>
+            <input type="tel" name="pcode" id="">
+        </fieldset>
+         <fieldset>
+                <legend>Pass Type Details</legend>
+                <label for="">Bus depot:</label>
+                <select name="bus depo" id="">
+                    <option value="" disabled selected>--select--</option>
+                    <option value="kakinada">Kakinada</option>
+                    <option value="tuni">Tuni</option>
+                    <option value="rajahmandry">Rajahmandry</option>
+                </select><br>
+                <label for="">Pass Type:</label>
+                <select name="ptype" id="">
+                    <option value="" disabled selected>--select pass--</option>
+                    <option value="Spass">Student pass</option>
+                    <option value="Epass">Employee pass</option>
+                    <option value="Hpass">handicapped pass</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Mode Of Payment and Pass collection</legend>
+                <label for="">Payment mode:</label>
+                <select name="payment mode" id="">
+                    <option value="" disabled selected>--select payment mode--</option>
+                    <option value="Online">Online mode</option>
+                    <option value="cash counter">Cash counter</option>
+                </select><br>
+
+                <label for="">Pass Delivery Mode:</label>
+                <select name="Pdelivery mode" id="">
+                    <option value="" disabled selected>--selected--</option>
+                    <option value="counter">At counter</option>
+                </select><br>
+
+                <label for="">Center at which you want to collect Pass:</label>
+                <select name="collecting point" id="">
+                    <option value="" disabled selected>--select--</option>
+                    <option value="RAJAHMUNDRY">RAJAHMUNDRY</option>
+                    <option value="KAKINADA">KAKINADA</option>
+                    <option value="Tuni">Tuni</option>
+                </select>
+
+            </fieldset>
+
+            <img src="./1_MHqIWdansPvRMEmUK2KNPw.png" alt="" width="200"><br>
+            <input type="text" placeholder="captcha"><br>
+            <button>submit</button>
+    </form>
+</body>
+</html>
